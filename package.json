@@ -1,0 +1,37 @@
+{
+  "name": "esbuild-plugin-env",
+  "version": "1.0.0",
+  "description": "ESbuild plugin that setup environment variables using dotenv",
+  "author": "Russel Dave <yamitsushi@gmail.com>",
+  "license": "MiT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "ESBuild",
+    "esbuild",
+    "plugin"
+  ],
+  "files": [
+    "./cjs.cjs",
+    "./esm.mjs",
+    "./index.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "import": "./esm.mjs",
+      "require": "./cjs.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamitsushi/esbuild-plugin-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yamitsushi/esbuild-plugin-env/issues"
+  },
+  "homepage": "https://github.com/yamitsushi/esbuild-plugin-env#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.17.5"
+  }
+}
