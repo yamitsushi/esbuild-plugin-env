@@ -8,7 +8,7 @@ import "dotenv/config"
  */
 export default function env(props) {
   return {
-    name: "Env",
+    name: "env",
     setup: (build) => {
       const options = build.initialOptions
       const define = options.define ?? {}

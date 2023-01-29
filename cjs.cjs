@@ -10,7 +10,7 @@ dotenv.config()
  */
 module.exports = function (props) {
   return {
-    name: "Env",
+    name: "env",
     setup: (build) => {
       const options = build.initialOptions
       const define = options.define ?? {}
