@@ -20,7 +20,7 @@ export default function env(props) {
       }
 
       options.define = {
-        "process.env.NODE_ENV": isProd ? "production" : "development",
+        "process.env.NODE_ENV": isProd ? '"production"' : '"development"',
         ...define,
       }
     },
