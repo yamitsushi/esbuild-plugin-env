@@ -13,8 +13,6 @@ yarn add esbuild-plugin-env --save-dev
 ## Environment
 
 - `process.env.NODE_ENV`: use minify to know whether the app will be set to production.
-- `import.env.PROD`: {boolean} whether the app is running in production.
-- `import.env.DEV`: {boolean} whether the app is running in development (always the opposite of import.meta.env.PROD)
 - `import.env.ESB_*`: key format that will be fetch in environment variables
 
 ## Optional Parameters

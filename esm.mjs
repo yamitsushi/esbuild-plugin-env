@@ -21,8 +21,6 @@ export default function env(props) {
 
       options.define = {
         "process.env.NODE_ENV": isProd ? "production" : "development",
-        "process.env.PROD": Boolean(isProd),
-        "process.env.DEV": Boolean(!isProd),
         ...define,
       }
     },
