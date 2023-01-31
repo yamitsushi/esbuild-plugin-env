@@ -23,6 +23,8 @@ module.exports = function (props) {
 
       options.define = {
         "process.env.NODE_ENV": isProd ? '"production"' : '"development"',
+        "process.env.PROD": isProd ? "true" : "false",
+        "process.env.DEV": !isProd ? "true" : "false",
         ...define,
       }
     },
