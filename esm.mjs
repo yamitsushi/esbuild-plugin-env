@@ -15,7 +15,7 @@ export default function env(props) {
       const isProd = props?.isProd ?? options.minify
 
       for (const k in process.env) {
-        if (k.startsWith(`${props?.startkey ?? "ESB"}_`))
+        if (k.startsWith(`${props?.startKey ?? "ESB"}_`))
           define[`process.env.${k}`] = JSON.stringify(process.env[k])
       }
 
