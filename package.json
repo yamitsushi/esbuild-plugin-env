@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-env",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ESbuild plugin that setup environment variables using dotenv",
   "author": "Russel Dave <yamitsushi@gmail.com>",
   "license": "MIT",
