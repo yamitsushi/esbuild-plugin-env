@@ -42,7 +42,7 @@ esbuild.build({
 
 ```javascript
 import esbuild from "esbuild"
-import env from "esbuild-plugin-clear"
+import env from "esbuild-plugin-env"
 
 esbuild.build({
   entryPoints: ["./src/index.js"],
