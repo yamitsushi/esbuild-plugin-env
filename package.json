@@ -31,7 +31,9 @@
   },
   "homepage": "https://github.com/yamitsushi/esbuild-plugin-env#readme",
   "devDependencies": {
-    "dotenv": "^16.0.3",
     "esbuild": "^0.17.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
